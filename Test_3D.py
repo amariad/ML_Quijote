@@ -338,9 +338,9 @@ print('preparing to train...')
 
 batch_size   = 16						#size of batches
 epochs       = 1000   	 					#number of epochs
-lr           = 5e-5						#learning rate
-weight_decay = 1e-7   						#weight decay
-date         = '07_01' 						#date for saving
+lr           = 1e-4						#learning rate
+weight_decay = 1e-6   						#weight decay
+date         = '06_23' 						#date for saving
 
 fout   = 'May/losses/3d_test_losses_12cnn_3fcl_%dn_%s.txt'%(neurons, date)    #losses for plotting 	RENAME
 fmodel = 'May/best_models/3d_test_12cnn_3fcl_%dn_%s.pt'%(neurons,date)   	#best model		RENAME 
